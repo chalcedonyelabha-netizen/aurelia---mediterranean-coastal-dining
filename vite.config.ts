@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       // ADD THIS LINE BELOW
-      base: '/aurelia---mediterranean-coastal-dining/', 
+      base: '/aurelia---mediterranean-coastal-dining/',
       
       server: {
         port: 3000,
